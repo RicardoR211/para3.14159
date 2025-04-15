@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("Minecraft.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Minecraft';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #FFA7C4;
+    align-items: center;
+    height: 100vh;
+}
+
+.gifContainer, .headerContainer{
+    text-align: center;
+}
+
+.headerContainer{
+    /* background-color: aqua; */
+    font-size: 32px;
+}
+
+h1{
+    margin-top: -45px;
+}
+
+.buttonContainer{
+    text-align: center;
+    /* background-color: red; */
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#green {
+    background: #2ecc71;
+    margin-right: 32px;
+    box-shadow: 0 4px 0 #27ae60;
+    font-size: 1.5em;
+}
+
+#red {
+    background: #e74c3c;
+    box-shadow: 0 4px 0 #c0392b;
+    font-size: 1.5em;
+}
+
+#red:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}

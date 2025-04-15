@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("Minecraft.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Minecraft';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFA7C4;
+}
+
+img {
+    max-width: 100%; /* Limita a largura ao container */
+    max-height: 80vh; /* Limita a altura */
+    width: auto; /* Mantém proporção */
+    height: auto; /* Mantém proporção */
+    object-fit: contain; /* Garante que toda a imagem seja visível */
+}
+
+h1{
+    font-size: 64px;
+    color: #df4f4f;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
